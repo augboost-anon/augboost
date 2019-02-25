@@ -31,6 +31,7 @@ model = ABC(n_estimators=10, max_epochs=1000, learning_rate=0.1, \
 And then train and predict like this:
 ```python
 model.fit(X=X_train, y=y_train)
+model.predict(X_val)
 ```
 
 In the file 'notebook for experiments.ipynb' there is example of code for running experiments with AugBoost.
