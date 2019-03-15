@@ -17,7 +17,7 @@ The most important prerequisite is probably the version of sklearn, although we 
 After cloning the repository, the 2 modules in can be imported using these lines of code:
 ```python
 from AugBoost import AugBoostClassifier as ABC
-from AugBoost import AugBoostRegressor as ABR
+from AugBoost import AugBoostRegressor as ABR    #doesn't work yet
 ```
 Meanwhile, only the code for classification tasks works =[
 
