@@ -786,7 +786,7 @@ class AugBoostClassifier(AugBoostBase):
         return self.classifier.staged_decision_function(self, X)
 
     def predict(self, X):
-        return self.classifier.predict(self, X)
+        return self.classifier.predict(X)
 
     def staged_predict(self, X):
         return self.classifier.staged_predict(self, X)
